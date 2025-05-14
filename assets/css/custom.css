@@ -1,0 +1,23 @@
+@font-face {
+    font-family: font;
+    src: url('/fonts/Bahnschrift.ttf');
+}
+
+html {
+    font-size: 18pt;
+    font-family: font;
+}
+
+@layer utilites {
+    .dark\:filter-invert {
+        &:is(.dark *) {
+          filter: invert(0%);
+        }
+      }
+    .caps {
+        text-transform: uppercase;
+    }
+    .small-caps {
+        font-variant: small-caps;
+    }
+}

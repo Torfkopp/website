@@ -1,5 +1,5 @@
 :root {
-  --color-neutral: 249, 245, 236;
+  --color-neutral: 249, 245, 236; /* Marshmallow */
   --color-neutral-50: 249, 245, 236;
   --color-neutral-100: 249, 245, 236;
   --color-neutral-200: 255, 255, 255;
@@ -11,6 +11,7 @@
   --color-neutral-800: 7, 34, 18;
   --color-neutral-900: 5, 46, 22;
   --color-neutral-950: 7, 34, 18;
+  --color-primary: 7, 34, 18; /* Green */
   --color-primary-50: 239, 125, 0;
   --color-primary-100: 239, 125, 0;
   --color-primary-200: 239, 125, 0;
@@ -22,6 +23,7 @@
   --color-primary-800: 239, 125, 0;
   --color-primary-900: 239, 125, 0;
   --color-primary-950: 239, 125, 0;
+  --color-secondary: 239, 123, 0; /* Orange */
   --color-secondary-50: 0, 0, 255;
   --color-secondary-100: 0, 0, 255;
   --color-secondary-200: 0, 0, 255;
