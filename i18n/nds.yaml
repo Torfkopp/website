@@ -1,66 +1,66 @@
 global:
-  language: "DE"
+  language: "NDS"
 
 article:
   anchor_label: "Anker"
   date: "{{ .Date }}"
-  date_updated: "Aktualisiert: {{ .Date }}"
-  draft: "Entwurf"
-  edit_title: "Inhalt bearbeiten"
+  date_updated: "Aktualiseert: {{ .Date }}"
+  draft: "Sketts"
+  edit_title: "Inhalt bearbeiden"
   reading_time:
     one: "{{ .Count }} min"
     other: "{{ .Count }} min"
-  reading_time_title: "Lesezeit"
-  table_of_contents: "Inhaltsverzeichnis"
+  reading_time_title: "Leestied"
+  table_of_contents: "Wat d'r in steiht"
   word_count:
-   one: "{{ .Count }} Wort"
-   other: "{{ .Count }} Wörter"
-  part_of_series: "Dieser Artikel ist Teil einer Serie."
-  part: "Teil"
-  this_article: "Dieser Artikel"
-  related_articles: "Verwandte Artikel"
+   one: "{{ .Count }} Woord"
+   other: "{{ .Count }} Woorden"
+  part_of_series: "Diss Bidrag is Deel van en Rieg."
+  part: "Deel"
+  this_article: "Diss Bidrag"
+  related_articles: "Verwandt Bidrag"
 
 author:
-  byline_title: "Autor"
+  byline_title: "Schriever"
 
 code:
-  copy: "Kopieren"
-  copied: "Kopiert"
+  copy: "Kopeeren"
+  copied: "Kopeert"
 
 error:
-  404_title: "Seite nicht gefunden :confused:"
+  404_title: "Siet neet funn :confused:"
   404_error: "Fehler 404"
-  404_description: "Es sieht so aus, als ob es diese Seite nicht gibt."
+  404_description: "Sücht so ut, as of de Siet neet existeert."
 
 footer:
-  dark_appearance: "Zum dunklen Erscheinungsbild wechseln"
-  light_appearance: "Zum hellen Erscheinungsbild wechseln"
-  powered_by: "Erstellt mit {{ .Hugo }} &amp; {{ .Theme }}"
+  dark_appearance: "Na't düüster Uptreden wesseln"
+  light_appearance: "Na't licht Uptreden wesseln"
+  powered_by: "Maakt mit {{ .Hugo }} &amp; {{ .Theme }}"
 
 list:
-  externalurl_title: "Link zu einer externen Seite"
-  no_articles: "Es gibt hier noch keine Beiträge."
+  externalurl_title: "Link na en extern Siet"
+  no_articles: "Hier gifft dat noch keen Bidragen."
 
 nav:
-   scroll_to_top_title: "Zum Anfang scrollen"
-   skip_to_main: "Zum Hauptinhalt springen"
+   scroll_to_top_title: "Na d' Begünn scrollen"
+   skip_to_main: "Na d' Hauptinhalt springen"
 
 search:
-   open_button_title: "Suche (/)"
-   close_button_title: "Schließen (Esc)"
-   input_placeholder: "Suchen"
+   open_button_title: "Söken (/)"
+   close_button_title: "Sluten (Esc)"
+   input_placeholder: "Söken"
 
 sharing:
-  email: "Per E-Mail teilen"
-  facebook: "Auf Facebook teilen"
-  linkedin: "Auf LinkedIn teilen"
-  pinterest: "Auf Pinterest pinnen"
-  reddit: "An Reddit senden"
-  twitter: "Auf Twitter teilen"
+  email: "Per E-Breev delen"
+  facebook: "Up Facebook delen"
+  linkedin: "Up LinkedIn delen"
+  pinterest: "Up Pinterest pinnen"
+  reddit: "Na Reddit stüren"
+  twitter: "Up Twitter delen"
 
 shortcode:
-  recent_articles: "Neue Beiträge"
+  recent_articles: "Neei Bidragen"
 
 
 recent:
-  show_more: "Zeige Mehr"
+  show_more: "Wies Mehr"
