@@ -9,11 +9,11 @@ html {
 }
 
 @layer utilites {
-    .dark\:filter-invert {
+    /* .dark\:filter-invert {
         &:is(.dark *) {
-          filter: invert(0%);
+          filter: invert(00%);
         }
-      }
+      } */
     .caps {
         text-transform: uppercase;
     }
