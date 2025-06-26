@@ -1,6 +1,7 @@
 disabled = false
 languageCode = "it"
 languageName = "Italiano"
+contentDir = "content/it"
 weight = 4
 title = "Fokken.cc"
 

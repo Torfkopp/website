@@ -10,14 +10,23 @@ html {
 
 @layer utilites {
     /* .dark\:filter-invert {
-        &:is(.dark *) {
-          filter: invert(00%);
+        &:not(.dark *) {
+          filter: invert(100%);
         }
       } */
+    .dark\:unhidden {
+        &:not(.dark *) {
+            visibility: hidden;
+        }
+    }
     .caps {
         text-transform: uppercase;
     }
     .small-caps {
         font-variant: small-caps;
+    }
+        .rounded-b-full {
+        border-bottom-right-radius: 9999px;
+        border-bottom-left-radius: 9999px;
     }
 }
