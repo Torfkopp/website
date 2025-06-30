@@ -21,22 +21,21 @@
 #  weight = 20
 
 [[main]]
-  name = "About"
-  parent = "About me"
+  name = "About me"
   pageRef = "about"
   weight = 10
 
-[[main]]
- name = "Languages"
- parent = "About me"
- pageRef = "languages"
- weight = 20
+# [[main]]
+#  name = "Languages"
+#  parent = "About me"
+#  pageRef = "languages"
+#  weight = 20
 
-[[main]]
- name = "Timeline"
- parent = "About me"
- pageRef = "timeline"
- weight = 20
+# [[main]]
+#  name = "Timeline"
+#  parent = "About me"
+#  pageRef = "timeline"
+#  weight = 20
 
 #[[subnavigation]]
 #  name = "An interesting topic"
@@ -49,10 +48,10 @@
 #  pageRef = "categories/awesome"
 #  weight = 20
 
-# [[main]]
-#  name = "Projects"
-#  pageRef = "projects"
-#  weight = 20
+[[main]]
+ name = "Projects"
+ pageRef = "projects"
+ weight = 20
 
 #[[main]]
 #  name = "Tags"
