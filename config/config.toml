@@ -1,0 +1,15 @@
+# DE content
+# [[module.mounts]]
+# source = 'content/de'
+# target = 'content'
+# lang = 'de'
+
+# #------------------------------------------------------------------------------
+# # Fill in the missing translations
+# #------------------------------------------------------------------------------
+
+# # This fills in the gaps in DE content with EN content
+# [[module.mounts]]
+# source = 'content/en'
+# target = 'content'
+# lang = 'de'

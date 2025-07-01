@@ -67,3 +67,49 @@ enableEmoji = true
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+
+[[module.mounts]]
+source = 'content/en'
+target = 'content'
+lang = 'en'
+
+[[module.mounts]]
+source = 'content/de'
+target = 'content'
+lang = 'de'
+
+[[module.mounts]]
+source = 'content/en'
+target = 'content'
+lang = 'de'
+
+[[module.mounts]]
+source = 'content/nds'
+target = 'content'
+lang = 'nds'
+
+[[module.mounts]]
+source = 'content/en'
+target = 'content'
+lang = 'nds'
+
+[[module.mounts]]
+source = 'content/it'
+target = 'content'
+lang = 'it'
+
+[[module.mounts]]
+source = 'content/en'
+target = 'content'
+lang = 'it'
+
+[[module.mounts]]
+source = 'content/ja'
+target = 'content'
+lang = 'ja'
+
+[[module.mounts]]
+source = 'content/en'
+target = 'content'
+lang = 'ja'
+

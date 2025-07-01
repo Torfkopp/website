@@ -10,25 +10,31 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
+# [[main]]
+#   name = "About me"
+#   pageRef = "about"
+#   weight = 10
+
+# [[main]]
+#  name = "Languages"
+#  pageRef = "languages"
+#  weight = 20
+
 [[main]]
-  name = "Über mich"
+  name = "僕のこと"
   pageRef = "about"
   weight = 10
 
-#[[main]]
-#  name = "Parent"
+# [[main]]
+#  name = "Languages"
+#  parent = "About me"
+#  pageRef = "languages"
 #  weight = 20
 
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
-
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
+# [[main]]
+#  name = "Timeline"
+#  parent = "About me"
+#  pageRef = "timeline"
 #  weight = 20
 
 #[[subnavigation]]
@@ -43,7 +49,7 @@
 #  weight = 20
 
 [[main]]
- name = "Projekte"
+ name = "計画"
  pageRef = "projects"
  weight = 20
 

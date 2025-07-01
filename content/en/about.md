@@ -1,22 +1,18 @@
 ---
 layout: "article"
-showWordCount: false
-showDate: false
-showReadingTime: false
-showAuthorBottom: true
 showPagination: false
 ---
 
 # Hello (⌒ ∇&nbsp;⌒)/!
 
-I'm Mario, an about <year - 2000> years old IT dude from Germany.
+I'm Mario, an about <year - 2000> years old IT dude from Northern Germany.
 
 You can contact me via [mario@fokken.cc](mailto:) or one of the other links.
 
 
 # Languages
 
-I'm available in following languages:
+I'm (more or less) available in following languages:
 
 | Language       | Description         | | Proficiency  |
 |----------------|---------------------|------|---------|
@@ -32,7 +28,7 @@ I'm available in following languages:
 {{< timeline >}}
 
 {{< timelineItem icon="github" header="Masterthesis" badge="May 2025" subheader="Thesis about the optimisation of a reinforcement learning algorithm using an evolutionary algorithm approach.">}}
-{{< github repo="Torfkopp/masterarbeit" >}}
+{{< github repo="torfkopp/masterarbeit" showThumbnail=true >}}
 {{< /timelineItem >}}
 
 {{< timelineItem icon="star" header="Master" badge="October 2022 - May 2025" >}}
