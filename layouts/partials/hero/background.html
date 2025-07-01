@@ -11,7 +11,6 @@
 {{ $featured = resources.GetRemote $url }}
 {{ end }}
 
-{{- if not $featured }}
  {{ with .Site.Params.defaultBackgroundImage }}
   {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
    {{ $featured = resources.GetRemote . }}
@@ -19,9 +18,7 @@
    {{ $featured = resources.Get . }}
   {{ end }}
  {{ end }}
-{{ end -}}
 
-{{- if not $featuredDark }}
 {{ with .Site.Params.defaultBackgroundImageDark }}
   {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
    {{ $featuredDark = resources.GetRemote . }}
@@ -29,7 +26,6 @@
    {{ $featuredDark = resources.Get . }}
   {{ end }}
  {{ end }}
-{{ end -}}
 
 {{ $isParentList := eq (.Scratch.Get "scope") "list"  }}
 {{ $shouldBlur := $.Params.layoutBackgroundBlur | default (or 
