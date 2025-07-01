@@ -1,2 +1,7 @@
 footer:
   powered_by: "{{ .Hugo }} と {{ .Theme }} で作成"
+
+error:
+  404_title: "ページが見つかりませんでした。"
+  404_error: "Error 404"
+  404_description: "ご要望のページは存在しないようです。"

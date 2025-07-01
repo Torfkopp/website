@@ -1,0 +1,4 @@
+error:
+  404_title: "Seite nicht gefunden"
+  404_error: "Fehler 404"
+  404_description: "Es sieht so aus, als ob es diese Seite nicht gebe."

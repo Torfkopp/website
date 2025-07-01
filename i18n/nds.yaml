@@ -28,7 +28,7 @@ code:
   copied: "Kopeert"
 
 error:
-  404_title: "Siet neet funn :confused:"
+  404_title: "Siet neet funn"
   404_error: "Fehler 404"
   404_description: "Sücht so ut, as of de Siet neet existeert."
 
